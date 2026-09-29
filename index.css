@@ -1,0 +1,66 @@
+@import "fonts.css";
+
+body {
+  background-color: #adce9c;
+  color: #1d211b;
+  font-family: "Cabin";
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  overflow: clip;
+}
+
+#gif-position {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  pointer-events: none;
+}
+
+video {
+  object-fit: fill;
+}
+
+.gif {
+  position: absolute;
+  pointer-events: none;
+}
+
+h1 {
+  margin-bottom: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #e0f7d4;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  background-color: #74997a;
+  color: #e0f7d4;
+
+  max-width: 600px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: bold;
+  font-style: italic;
+}

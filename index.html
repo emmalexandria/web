@@ -4,11 +4,51 @@
     <meta charset="UTF-8" />
     <title>xoem</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@videojs/cdn@10.0.0-rc.4/video-minimal.js"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="randpos.js"></script>
   </head>
 
   <body>
-    <h1>Hello</h1>
+    <main>
+      <h1 class="bold">hello boyfriend ziggy ♡</h1>
+      <p class="italic">this is my domain, i am stuck in da computer</p>
+      <hr />
+      <p>
+        i don't have website to put on it yet, so while there is nothing really
+        to have here i quickly made this in 20 minutes just for u.
+      </p>
+    </main>
+
+    <video-player>
+      <!--
+    Skins contain the entire player UI and are easily swappable.
+    Add the skin source to your project for full control over its
+    UI components.
+   -->
+      <video-minimal-skin
+        style="display: block; width: 100%; flex-grow: 1; border-radius: 0px"
+      >
+        <!--
+        Media are players without UIs, handling networking
+        and display of the media. They are easily swappable
+        to handle different sources.
+      -->
+        <video src="bdog.webm" playsinline></video>
+      </video-minimal-skin>
+    </video-player>
+    <div id="gif-position">
+      <img class="gif" src="heart1.gif" />
+      <img class="gif" src="bfly1.gif" />
+      <img class="gif" src="bfly2.gif" />
+      <img class="gif" src="flappingfairy.gif" />
+      <img class="gif" src="dogs.gif" />
+      <img class="gif" src="sun.gif" />
+      <img class="gif" src="jackhammerlil.gif" />
+      <img class="gif" src="hammer.gif" />
+    </div>
   </body>
 </html>
